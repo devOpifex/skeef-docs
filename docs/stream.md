@@ -1,7 +1,13 @@
 # Stream
 
-Guide to adding or updating a stream; bothe interface
+Guide to adding or updating a stream; both interface
 are identical.
+
+:::info
+
+Streams can be edited when paused.
+
+:::
 
 ![Add or update a stream](../static/img/stream.png)
 
@@ -38,3 +44,20 @@ sense of what is visualised.
     are colored differently in the graph.
   - __Replies__: I tweet `Something about your keyword` and `@you` reply
     to the tweet draws an edge between me and `@you`.
+
+- __Maximum edges on screen__: The maximum number of edges that can
+be visible on the graph before oldest edges start being removed. 
+This is important for performances, this graph is help in memory
+and sent via WebSocket to users who join the stream so all concurrent 
+users should see the same graph.
+- __Minimum followers__: Minimum number of followers the author of 
+the tweet must have made.
+- __Minimum favourites__: Minimum number of favourites a tweet should
+have to be considered for the graph.
+- __Maximum hashtags__: A very useful filter to remove noise and bots
+from your graphs. This will filter out any tweets that include more than
+the set number of hashtags.
+- __Maximum mentions__: Maximum number of `@mention` in a tweets,
+similar as the above filter, it is very useful to remove noise and bots.
+- __Description__: Description of the stream, this is made visible
+to users who visit the stream.

@@ -27,8 +27,8 @@ Alternatively build from source, clone.
 git clone https://github.com/devOpifex/skeef.git
 ```
 
-Then run make to produce the binaries
+Then run make or go build to produce the binaries
 
 ```
-make
+go build
 ```
