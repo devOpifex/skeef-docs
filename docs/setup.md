@@ -1,4 +1,4 @@
-# Setup
+# Setup App
 
 To setup skeef simply run the application and visit the app
 at the address you specified (see setup in the previous page),

@@ -1,4 +1,4 @@
-# Stream
+# Add or Edit Stream
 
 Guide to adding or updating a stream; both interface
 are identical.

@@ -1,4 +1,4 @@
-# Running Skeef
+# Run App
 
 _Go to the next page to read more about the setup_
 
