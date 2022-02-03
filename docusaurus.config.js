@@ -16,6 +16,15 @@ const config = {
   organizationName: 'devOpifex', // Usually your GitHub org/user name.
   projectName: 'skeef', // Usually your repo name.
 
+  scripts: [
+    {
+      src: './js/particles.min.js',
+    }, {
+      src: './js/particle-script.js',
+      defer: true,
+    }
+  ],
+
   plugins: [
     require.resolve('docusaurus-lunr-search')
   ],

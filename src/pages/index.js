@@ -9,17 +9,10 @@ import HomepageFeatures from '../components/HomepageFeatures';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header id="particles" className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/install">
-            Get Started
-          </Link>
-        </div>
       </div>
     </header>
   );
@@ -27,9 +20,11 @@ function HomepageHeader() {
 
 function HomepageBanner() {
   return (
-    <header className={clsx('hero hero--secondary')}>
+    <header className={clsx('demo')}>
       <div className="container">
         <div>
+          <h2 class="cntr">Demo</h2>
+          <p class="cntr">A short demo of a Skeef stream running.</p>
           <video width="100%" height="auto" controls>
             <source src="videos/skeef.webm" type="video/webm" />
           </video>
