@@ -25,6 +25,20 @@ function HomepageHeader() {
   );
 }
 
+function HomepageBanner() {
+  return (
+    <header className={clsx('hero hero--secondary')}>
+      <div className="container">
+        <div>
+          <video width="100%" height="auto" controls>
+            <source src="videos/skeef.webm" type="video/webm" />
+          </video>
+        </div>
+      </div>
+    </header>
+  );
+}
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -32,6 +46,7 @@ export default function Home() {
       title={siteConfig.title}
       description="Near real-time visualisation of Twitter networks">
       <HomepageHeader />
+      <HomepageBanner />
       <main>
         <HomepageFeatures />
       </main>

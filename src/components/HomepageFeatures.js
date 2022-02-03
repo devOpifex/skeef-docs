@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/real-time.svg').default,
     description: (
       <>
         As simple as running a binary.
@@ -14,20 +14,19 @@ const FeatureList = [
   },
   {
     title: 'Shareable',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/share.svg').default,
     description: (
       <>
-        Skeef works is meant to work on server so others can watch
-        streams of visusalisations, but it also works locally.
+        Works locally as well as on a server.
       </>
     ),
   },
   {
     title: 'Free & Open source',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/oss.svg').default,
     description: (
       <>
-        Skeef is entirely free and open-source.
+        Entirely free and open-source.
       </>
     ),
   },

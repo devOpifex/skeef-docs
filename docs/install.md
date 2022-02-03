@@ -6,18 +6,30 @@ sidebar_position: 1
 
 ## Linux
 
-Get the binary from the [repository](https://github.com/devOpifex/skeef),
-[download](https://github.com/devOpifex/skeef/raw/master/bin/skeef).
+Get the binary from the [repository](https://github.com/devOpifex/skeef).
+
+<a class="button button--primary button--lg"
+  href="https://github.com/devOpifex/skeef/raw/master/bin/skeef">
+  Download
+</a>
 
 ## MacOS
 
-Get the binary from the [repository](https://github.com/devOpifex/skeef),
-[download](https://github.com/devOpifex/skeef/raw/master/bin/skeef-mac).
+Get the binary from the [repository](https://github.com/devOpifex/skeef).
+
+<a class="button button--primary button--lg"
+  href="https://github.com/devOpifex/skeef/raw/master/bin/skeef-mac">
+  Download
+</a>
 
 ## Windows
 
-Get the binary from the [repository](https://github.com/devOpifex/skeef),
-[download](https://github.com/devOpifex/skeef/raw/master/bin/skeef.exe).
+Get the executable from the [repository](https://github.com/devOpifex/skeef).
+
+<a class="button button--primary button--lg"
+  href="https://github.com/devOpifex/skeef/raw/master/bin/skeef.exe">
+  Download
+</a>
 
 ## Source
 

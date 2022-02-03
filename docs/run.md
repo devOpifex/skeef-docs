@@ -15,8 +15,12 @@ to create an admin user.
 Skeef uses an sqlite database to store a tiny amount of data, e.g.:
 the setting for the streams you have created.
 
+:::warning
+
 The `reset` flag resets everything, this means __you lose everything
 that was in the database.__
+
+:::
 
 __Example__
 
