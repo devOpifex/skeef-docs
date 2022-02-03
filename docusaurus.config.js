@@ -16,6 +16,10 @@ const config = {
   organizationName: 'devOpifex', // Usually your GitHub org/user name.
   projectName: 'skeef', // Usually your repo name.
 
+  plugins: [
+    require.resolve('docusaurus-lunr-search')
+  ],
+
   presets: [
     [
       'classic',
@@ -25,12 +29,6 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/devOpifex/skeef/tree/main/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/devOpifex/skeef/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,29 +51,16 @@ const config = {
             type: 'doc',
             docId: 'install',
             position: 'left',
-            label: 'Installation',
-          },
-          {
-            type: 'doc',
-            docId: 'run',
-            position: 'left',
-            label: 'Run',
-          },
-          {
-            type: 'doc',
-            docId: 'setup',
-            position: 'left',
-            label: 'Setup',
-          },
-          {
-            type: 'doc',
-            docId: 'stream',
-            position: 'left',
-            label: 'Stream',
+            label: 'Documentation',
           },
           {
             href: 'https://github.com/devOpifex/skeef',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            label: 'Twitter',
+            href: 'https://twitter.com/devOpifex',
             position: 'right',
           },
         ],
