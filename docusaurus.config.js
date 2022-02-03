@@ -1,7 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -75,6 +74,9 @@ const config = {
           },
         ],
       },
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
       footer: {
         style: 'dark',
         links: [
@@ -104,7 +106,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Opifex.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),

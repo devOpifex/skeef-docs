@@ -23,6 +23,7 @@
   --ifm-code-font-size: 95%;
   --ifm-heading-font-family: 'Nunito', sans-serif;
   --ifm-hero-background-color: #262b36;
+  --ifm-doc-sidebar-bg-color: #262b36;
 }
 
 .navbar__toggle {
