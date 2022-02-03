@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,500;0,700;1,200&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-navbar-background-color: #262b36;
@@ -19,9 +21,14 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  --ifm-heading-font-family: 'Nunito', sans-serif
 }
 
 .navbar__toggle {
+  color: white;
+}
+
+.navbar-sidebar__back {
   color: white;
 }
 
@@ -33,6 +40,7 @@ html[data-theme='dark'] {
   --ifm-color-primary-dark: #9d4edd;
   --ifm-hero-text-color: white;
   --ifm-font-color-base-inverse: white;
+  --ifm-menu-color: white;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
