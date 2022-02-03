@@ -4,6 +4,9 @@ sidebar_position: 1
 
 # Installation
 
+Currently `v0.0.1`, see 
+[release](https://github.com/devOpifex/skeef/releases/tag/v0.0.1)
+
 ## Linux
 
 Get the binary from the [repository](https://github.com/devOpifex/skeef).

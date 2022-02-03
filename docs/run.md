@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Run App
 
 _Go to the next page to read more about the setup_

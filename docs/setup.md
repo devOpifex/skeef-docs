@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Setup App
 
 To setup skeef simply run the application and visit the app

@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Add or Edit Stream
 
 Guide to adding or updating a stream; both interface

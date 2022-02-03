@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Manage Streams
 
 Once one or more stream has been added to the application
