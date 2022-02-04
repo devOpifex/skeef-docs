@@ -81,8 +81,9 @@ const config = {
       },
       metadata: [
         {name: 'keywords', content: 'twitter,visualisation,real-time,network'},
-        {name: 'twitter:card', content: 'summary'},
+        {name: 'twitter:card', content: 'summary_large_image'},
         {name: 'twitter:site', content: '@devOpifex'},
+        {name: 'twitter:create', content: '@devOpifex'},
         {name: 'twitter:title', content: 'Skeef'},
         {name: 'twitter:description', content: 'Near real-time Twitter network visualisations'},
         {name: 'twitter:image', content: 'https://skeef.io/img/skeef-social.png'},
