@@ -25,7 +25,7 @@ function HomepageBanner() {
         <div>
           <h2 class="cntr">Demo</h2>
           <p class="cntr">A short demo of a Skeef stream running.</p>
-          <video width="100%" height="auto" controls>
+          <video width="100%" height="auto" controls preload="metadata">
             <source src="videos/skeef.webm" type="video/webm" />
           </video>
         </div>
