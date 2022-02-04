@@ -79,6 +79,14 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
+      metadata: [
+        {name: 'keywords', content: 'twitter,visualisation,real-time,network'},
+        {name: 'twitter:card', content: 'summary'},
+        {name: 'twitter:site', content: '@devOpifex'},
+        {name: 'twitter:title', content: 'Skeef'},
+        {name: 'twitter:description', content: 'Near real-time Twitter network visualisations'},
+        {name: 'twitter:image', content: 'https://skeef.io/img/skeef-social.png'},
+      ],
       footer: {
         style: 'dark',
         links: [
