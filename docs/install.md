@@ -11,7 +11,7 @@ Currently `v0.0.1`, see
 
 Get the binary from the [repository](https://github.com/devOpifex/skeef).
 
-<a class="button button--primary button--lg"
+<a className="button button--primary button--lg"
   href="https://github.com/devOpifex/skeef/raw/master/bin/skeef">
   Download
 </a>
@@ -20,7 +20,7 @@ Get the binary from the [repository](https://github.com/devOpifex/skeef).
 
 Get the binary from the [repository](https://github.com/devOpifex/skeef).
 
-<a class="button button--primary button--lg"
+<a className="button button--primary button--lg"
   href="https://github.com/devOpifex/skeef/raw/master/bin/skeef-mac">
   Download
 </a>
@@ -29,7 +29,7 @@ Get the binary from the [repository](https://github.com/devOpifex/skeef).
 
 Get the executable from the [repository](https://github.com/devOpifex/skeef).
 
-<a class="button button--primary button--lg"
+<a className="button button--primary button--lg"
   href="https://github.com/devOpifex/skeef/raw/master/bin/skeef.exe">
   Download
 </a>

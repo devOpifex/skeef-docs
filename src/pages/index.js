@@ -23,8 +23,8 @@ function HomepageBanner() {
     <header className={clsx('demo')}>
       <div className="container">
         <div>
-          <h2 class="cntr">Demo</h2>
-          <p class="cntr">A short demo of a Skeef stream running.</p>
+          <h2 className="cntr">Demo</h2>
+          <p className="cntr">A short demo of a Skeef stream running.</p>
           <video width="100%" height="auto" controls preload="metadata">
             <source src="videos/skeef.webm" type="video/webm" />
           </video>
